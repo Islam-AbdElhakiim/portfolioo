@@ -7,7 +7,7 @@ import { fadeIn } from "@/utils";
 import { FormEvent, useRef, useState } from "react";
 import { ResponseData } from "../api/send-mail";
 
-const contact = () => {
+const Contact = () => {
   console.log("rendered");
   // Live Form Handling
   const [userName, setUserName] = useState("");
@@ -131,7 +131,7 @@ const contact = () => {
         {/* Text */}
         <div className="font-bold text-[32px]">
           <h1>
-            Let's <span className="text-accent">connect.</span>
+            Let&apos;s <span className="text-accent">connect.</span>
           </h1>
         </div>
 
@@ -210,7 +210,7 @@ const contact = () => {
             <span
               className={`group-hover:-translate-y-[120%] group-hover:opacity-0 transition duration-300 `}
             >
-              Let's talk
+              Let&apos;s talk
             </span>
             <FaArrowRight
               className={`-translate-y-[120%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 absolute `}
@@ -222,4 +222,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

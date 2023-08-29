@@ -117,8 +117,8 @@ const About = () => {
           </div>
           {/* content */}
           <div className="flex flex-col justify-start items-start w-full max-w-[470px] h-full lg:max-h-full lg:justify-center overflow-scroll sm:overflow-hidden text-start">
-            {aboutData[aboutDataIndex].info.map((infoObject) => (
-              <div className="flex justify-start items-center">
+            {aboutData[aboutDataIndex].info.map((infoObject, index) => (
+              <div className="flex justify-start items-center" key={index}>
                 {/* ICONS */}
                 {infoObject._icons && (
                   <div className="px-3 text-white/50 flex justify-between gap-3 items-center">

@@ -5,7 +5,7 @@ import Image from "next/image";
 import ServiceSlider from "../../components/ServiceSlider";
 import { fadeIn } from "@/utils";
 
-const services = () => {
+const Services = () => {
   return (
     <section className="w-full h-full">
       <div className="w-full h-[76vh] mt-[16vh] flex flex-col justify-center items-end px-5 lg:mx-auto  lg:max-w-[85%] lg:flex-row xl:max-w-[60%]">
@@ -59,4 +59,4 @@ const services = () => {
   );
 };
 
-export default services;
+export default Services;

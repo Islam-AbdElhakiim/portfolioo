@@ -34,7 +34,7 @@ const Home = () => {
             animate="show"
             exit="hidden"
           >
-            the Idea of creating, designing, and crafting business ideas from scratch, being responsible about someone's success is a simply me.
+            the Idea of creating, designing, and crafting business ideas from scratch, being responsible about someone&apos;s success is a simply me.
           </motion.p>
         </div>
         {/* Projects */}

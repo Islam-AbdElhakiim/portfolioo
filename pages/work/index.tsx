@@ -21,7 +21,7 @@ const Work = () => {
             My Work<span className="text-accent">.</span>
           </h1>
           <p className="px-2">
-            Because I don't have the right to publish my major works, I've created some live templates for portfolio purposes, and they're always under development<span className="text-accent text-2xl">.</span> 
+            Because I don&apos;t have the right to publish my major works, I&apos;ve created some live templates for portfolio purposes, and they&apos;re always under development<span className="text-accent text-2xl">.</span> 
           </p>
         </div>
 

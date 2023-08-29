@@ -4,12 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
+/deleted_app
 
 # testing
 /coverage
 
 # next.js
-/.next/
+/.next
 /out/
 
 # production
@@ -34,3 +35,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 vid.mp4
+/deleted_app

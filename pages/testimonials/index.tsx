@@ -6,7 +6,7 @@ import WorkSlider from "../../components/WorkSlider";
 import TestimonialsSlider from "@/components/TestimonialsSlider";
 import { fadeIn } from "@/utils";
 
-const testimonials = () => {
+const Testimonials = () => {
   return (
     <section className="w-full h-full">
       <motion.div 
@@ -40,4 +40,4 @@ const testimonials = () => {
   );
 };
 
-export default testimonials;
+export default Testimonials;
